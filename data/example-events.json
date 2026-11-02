@@ -1,0 +1,32 @@
+[
+  {
+    "platform": "toss",
+    "title": "(예시) 친구에게 링크 공유하고 포인트 받기",
+    "kind": "link",
+    "url": "https://toss.im/event/example",
+    "start": "2026-11-01",
+    "end": "2026-11-07 23:59",
+    "reward": "최대 1,000원 토스포인트",
+    "effort_min": 2,
+    "steps": ["토스 앱 → 전체 → 이벤트", "공유하기 버튼으로 카카오톡 친구에게 링크 전송", "친구가 링크를 열면 포인트 자동 적립"],
+    "tips": ["단톡방 1회 공유로도 인정되는지 이벤트 유의사항에서 확인"],
+    "cautions": ["1인 1회 참여"],
+    "sources": ["https://toss.im/event/example"],
+    "first_come": true,
+    "verified": false
+  },
+  {
+    "platform": "kakaopay",
+    "title": "(예시) 결제 퀴즈 맞히고 쿠폰 받기",
+    "kind": "quiz",
+    "url": "https://bit.ly/abc123",
+    "start": "2026-11-03 12:00",
+    "end": "2026-11-03 23:59",
+    "reward": "결제 할인 쿠폰",
+    "effort_min": 1,
+    "steps": ["카카오톡 → 더보기 → 페이 → 이벤트", "퀴즈 정답 입력"],
+    "tips": ["낮 12시 오픈 — 점심 직후 알림 확인"],
+    "sources": ["https://news.example.com/article"],
+    "verified": false
+  }
+]
